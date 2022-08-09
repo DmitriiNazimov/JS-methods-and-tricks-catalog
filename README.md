@@ -12,11 +12,17 @@
 
 ## Создание массива/строки
 - [String.raw()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw) - создает строку которая вставляется как `Some text ${string}` и в ней спецсимволы типа u000A не исполняются. Грубо говоря экранирует спецсимволы.
+- [String.split(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) - создает МАССИВ путем разбиения String на подстроки по разделителю separator.
+- []() - 
+- []() - 
+- []() - 
+- []() - 
 - []() - 
 - []() - 
 
 ## Поиск по массиву/строке
-- [String.endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith) - определяет есть ли в конце строки String строка 'sample'. Возвращает true/false.
+- [String.startsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в НАЧАЛЕ строки String строка 'sample'. Возвращает true/false.
+- [String.endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith) - определяет есть ли в КОНЦЕ строки String строка 'sample'. Возвращает true/false.
 - [String.includes('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - определяет с учетом регистра присутствует ли 'sample' внутри String. Возвращает true/false.
 - [String.indexOf('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) - возвращает индекс ПЕРВОГО вхождения указанной подстроки.
 - [String.lastIndexOf()('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf) - возвращает индекс ПОСЛЕДНЕГО вхождения указанной подстроки.
@@ -27,12 +33,14 @@
 - []() - 
 
 ## Извлечение из массива/строки
-- []() - 
-- []() - 
+- [String.substring(indexStart, end)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) - возвращает часть string между начальным и конечным индексами? или до конца строки.
+- [String.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) - извлекает часть строки и возвращает ее как новую строку без изменения исходной строки.
 - [String.charAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) - извлекает 1 символ по номеру его индекса в строке. Возвращает 1 символ.
 - [String.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) - извлекает из строки символы по условию регулярного выражения. Возвращает массив извлеченных символов.
 
 - [String.matchAll()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll) - извлекает из строки символы по условию регулярного выражения. Возвращает несколько массивов с совпадениеми.
+- []() - 
+- []() - 
 - []() - 
 
 
