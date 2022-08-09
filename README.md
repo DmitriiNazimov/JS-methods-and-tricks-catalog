@@ -52,16 +52,16 @@
 ### Строка
 - ✅ [String.**search**(regex)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search) - возвращает индекс первого вхождения regex в строку String или -1 если вхождения нет. 
 
-- ✅ [String.**indexOf**('sample') | lastIndexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) - возвращает индекс первого/последнего вхождения указанной подстроки.
+- ✅ [String.**indexOf**('sample') | **lastIndexOf**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) - возвращает индекс первого/последнего вхождения указанной подстроки.
 
 - ✅ [String.**includes**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - определяет с учетом регистра присутствует ли 'sample' внутри String. Возвращает true/false.
 
-- [String.**startsWith**('sample') | endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в начале/конце строки String строка 'sample'. Возвращает true/false.
+- [String.**startsWith**('sample') | **endsWith**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в начале/конце строки String строка 'sample'. Возвращает true/false.
 
 ## Извлечение из массива/строки
 
 ### Массив
-- []() - 
+- [Array.at(index)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/at) - возвращает элемент массива по index. В отличие от квадратных скобок работает с отрицательными числами. Например Array.at(-1) вернет последний элемент массива.
 
 - []() - 
 
@@ -78,7 +78,7 @@
 ### Строка
 - ✅ [String.**slice**(indexStart, indexEnd)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) - извлекает часть строки и возвращает ее как новую строку без изменения исходной строки.
 
-- ✅ [String.**match**(regexp) | matchAll(regexp)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) - извлекает из строки символы по условию regexp. Возвращает массив извлеченных символов.
+- ✅ [String.**match**(regexp) | **matchAll**(regexp)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) - извлекает из строки символы по условию regexp. Возвращает массив извлеченных символов.
 
 - [String.**substring**(indexStart, end)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) - возвращает часть string между начальным и конечным индексами? или до конца строки.
 
@@ -89,6 +89,8 @@
 ## Проверка по условию | сравнение
 
 ### Массив
+- [Array.**every**(callback(item, index, arr) | .**some**())](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/every) - проверяет, удовлетворяют ли все/некоторые элементы массива условию, заданному в передаваемой функции. Возвращает true/false.
+
 - []() - 
 
 - []() - 
@@ -104,20 +106,18 @@
 ## Простое преобразование (без коллбэка)
 
 ### Массив
-- []() - 
-- 
-- []() - 
-- 
-- []() - 
-- 
-- []() - 
-- 
+- [Array.concat(anotherArr)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) - возвращает новый массив, состоящий из массива, на котором он был вызван, соединённого с другими массивами.
+ 
+- [Array.copyWithin(target, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin) - копирует последовательность элементов массива внутри него в позицию, начинающуюся по индексу target. [1, 2, 3, 4, 5].copyWithin(0, 3); // [4, 5, 3, 4, 5] // Вставляет с элемента ноль элементы с 3 до последнего.
+ 
+- [Array.entries()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/entries) - возвращает новый объект итератора массива Array Iterator, содержащий пары ключ / значение для каждого индекса в массиве.
+
 - []() - 
 
 ### Строка
-- ✅ [String.**replace**(regexp, newSubstr) | replaceAll(regexp, newSubstr)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) - возвращает новую строку, в которой заменяет в строке String одно вхождение найденное по regexp на newSubstr.
+- ✅ [String.**replace**(regexp, newSubstr) | **replaceAll**(regexp, newSubstr)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) - возвращает новую строку, в которой заменяет в строке String одно вхождение найденное по regexp на newSubstr.
 
-- ✅ [String.**toLowerCase**() | String.toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) - возвращает новую строку преобразованную в нижний/верхний регистр.
+- ✅ [String.**toLowerCase**() | **toUpperCas**e()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) - возвращает новую строку преобразованную в нижний/верхний регистр.
 
 - ✅ [String.**trim()** | trimEnd() | trimStart()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) - удаляет пробелы с обоих концов строки и возвращает новую строку без изменения исходной строки. 
 
