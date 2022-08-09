@@ -22,10 +22,15 @@
 
 ## Поиск по массиву/строке
 - [String.startsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в НАЧАЛЕ строки String строка 'sample'. Возвращает true/false.
+
 - [String.endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith) - определяет есть ли в КОНЦЕ строки String строка 'sample'. Возвращает true/false.
+
 - [String.includes('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - определяет с учетом регистра присутствует ли 'sample' внутри String. Возвращает true/false.
+
 - [String.indexOf('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) - возвращает индекс ПЕРВОГО вхождения указанной подстроки.
+
 - [String.lastIndexOf()('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf) - возвращает индекс ПОСЛЕДНЕГО вхождения указанной подстроки.
+
 - [String.search(regex)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search) - возвращает индекс первого вхождения regex в строку String или -1 если вхождения нет. 
 - []() - 
 - []() - 
