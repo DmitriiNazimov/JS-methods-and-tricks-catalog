@@ -1,8 +1,12 @@
 # Методы JS для работы со строками и массивами.
 
-В данном конспекте отсутствует методы работы с юникодом.
+В данном конспекте отсутствует: 
+- методы работы с юникодом.
+- устаревшие (deprecated) и эксперементальные методы.
 
 ✅ - часто используемый метод, рекомендуется запомнить в первую очередь.
+
+Конспект актуален по состоянию на август 2022 года.
 
 ## Оглавление
 1. [Cоздание](https://github.com/NazimovDmitrii/JS-Array-and-String-methods/blob/main/README.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8)
@@ -41,7 +45,7 @@
 ## Поиск по массиву/строке
 
 ### Массив
-- []() - 
+- [Array.prototype.find(callback(item, index, arr))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает значение первого найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается undefined.
 
 - []() - 
 
@@ -112,6 +116,14 @@
  
 - [Array.entries()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/entries) - возвращает новый объект итератора массива Array Iterator, содержащий пары ключ / значение для каждого индекса в массиве.
 
+- [Array.fill(value, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) - заполняет все элементы массива от начального до конечного индексов одним значением. Возвращает измененный массив.
+
+- []() - 
+
+- []() - 
+
+- []() - 
+
 - []() - 
 
 ### Строка
@@ -133,7 +145,7 @@
 ## Сложное преобразование (с коллбэком)
 
 ### Массив
-- []() - 
+- [Array.filter(callback(item, index, array))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - создаёт новый массив со всеми элементами, прошедшими проверку, задаваемую в передаваемой функции.
 
 - []() - 
 
