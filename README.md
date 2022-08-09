@@ -14,14 +14,14 @@
 - []() - 
 
 ## Поиск по массиву/строке
-- []() - 
+- [String.endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith) - определяет есть ли в конце строки String строка 'sample'. Возвращает true/false.
 - []() - 
 - []() - 
 
 ## Извлечение из массива/строки
 - []() - 
 - []() - 
-- []() - 
+- [String.charAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) - извлекает 1 символ по номеру его индекса в строке. Возвращает 1 символ.
 - [String.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) - извлекает из строки символы по условию регулярного выражения. Возвращает массив извлеченных символов.
 
 - [String.matchAll()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll) - извлекает из строки символы по условию регулярного выражения. Возвращает несколько массивов с совпадениеми.
@@ -38,7 +38,7 @@
 
 
 ## Простое преобразование (без коллбэка)
-- []() - 
+- [String.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat) - обьединяет строки и возвращает новую объединенную строку.
 - []() - 
 - []() - 
 
