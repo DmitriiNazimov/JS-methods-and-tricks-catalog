@@ -45,9 +45,9 @@
 ## Поиск по массиву/строке
 
 ### Массив
-- [Array.**find**(callback(item, index, arr)) | **.findLast**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает **значение** первого найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается undefined.
+- [Array.**find**(callback(item, index, arr)) | **.findLast**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает **значение** первого/последнего найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается undefined.
 
-- [Array.**findIndex**(callback(item, index, arr)) | **.findLastIndex**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) - возвращает **индекс** в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
+- [Array.**findIndex**(callback(item, index, arr)) | **.findLastIndex**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) - возвращает **индекс** первого/последнего элемента в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
 
 - []() - 
 
