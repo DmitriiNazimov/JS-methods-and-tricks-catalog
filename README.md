@@ -45,9 +45,9 @@
 ## Поиск по массиву/строке
 
 ### Массив
-- [Array.prototype.find(callback(item, index, arr))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает значение первого найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается undefined.
+- [Array.**find**(callback(item, index, arr))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает **значение** первого найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается undefined.
 
-- []() - 
+- [Array.**findIndex**(callback(item, index, arr))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) - возвращает **индекс** в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
 
 - []() - 
 
@@ -65,7 +65,7 @@
 ## Извлечение из массива/строки
 
 ### Массив
-- [Array.at(index)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/at) - возвращает элемент массива по index. В отличие от квадратных скобок работает с отрицательными числами. Например Array.at(-1) вернет последний элемент массива.
+- [Array.**at**(index)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/at) - возвращает элемент массива по index. В отличие от квадратных скобок работает с отрицательными числами. Например Array.at(-1) вернет последний элемент массива.
 
 - []() - 
 
@@ -110,13 +110,13 @@
 ## Простое преобразование (без коллбэка)
 
 ### Массив
-- [Array.concat(anotherArr)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) - возвращает новый массив, состоящий из массива, на котором он был вызван, соединённого с другими массивами.
+- [Array.**concat**(anotherArr)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) - возвращает новый массив, состоящий из массива, на котором он был вызван, соединённого с другими массивами.
  
-- [Array.copyWithin(target, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin) - копирует последовательность элементов массива внутри него в позицию, начинающуюся по индексу target. [1, 2, 3, 4, 5].copyWithin(0, 3); // [4, 5, 3, 4, 5] // Вставляет с элемента ноль элементы с 3 до последнего.
+- [Array.**copyWithin**(target, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin) - копирует последовательность элементов массива внутри него в позицию, начинающуюся по индексу target. [1, 2, 3, 4, 5].copyWithin(0, 3); // [4, 5, 3, 4, 5] // Вставляет с элемента ноль элементы с 3 до последнего.
  
-- [Array.entries()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/entries) - возвращает новый объект итератора массива Array Iterator, содержащий пары ключ / значение для каждого индекса в массиве.
+- [Array.**entries**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/entries) - возвращает новый объект итератора массива Array Iterator, содержащий пары ключ / значение для каждого индекса в массиве.
 
-- [Array.fill(value, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) - заполняет все элементы массива от начального до конечного индексов одним значением. Возвращает измененный массив.
+- [Array.**fill**(value, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) - заполняет все элементы массива от начального до конечного индексов одним значением. Возвращает измененный массив.
 
 - []() - 
 
@@ -145,7 +145,7 @@
 ## Сложное преобразование (с коллбэком)
 
 ### Массив
-- [Array.filter(callback(item, index, array))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - создаёт новый массив со всеми элементами, прошедшими проверку, задаваемую в передаваемой функции.
+- [Array.**filter**(callback(item, index, array))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - создаёт новый массив со всеми элементами, прошедшими проверку, задаваемую в передаваемой функции.
 
 - []() - 
 
