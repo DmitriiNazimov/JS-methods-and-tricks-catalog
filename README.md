@@ -35,7 +35,7 @@
 - []() - 
 
 ### Строка
-❌ - [String.raw()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw) - создает строку которая вставляется как `Some text ${string}` и в ней спецсимволы типа u000A не исполняются. Грубо говоря экранирует спецсимволы.
+❌ - [String.**raw**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw) - создает строку которая вставляется как `Some text ${string}` и в ней спецсимволы типа u000A не исполняются. Грубо говоря экранирует спецсимволы.
 
 
 ## Поиск по массиву/строке
@@ -56,7 +56,7 @@
 
 - ✅ [String.**includes**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - определяет с учетом регистра присутствует ли 'sample' внутри String. Возвращает true/false.
 
-- [String.startsWith('sample') | endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в начале/конце строки String строка 'sample'. Возвращает true/false.
+- [String.**startsWith**('sample') | endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в начале/конце строки String строка 'sample'. Возвращает true/false.
 
 ## Извлечение из массива/строки
 
@@ -80,9 +80,9 @@
 
 - ✅ [String.**match**(regexp) | matchAll(regexp)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) - извлекает из строки символы по условию regexp. Возвращает массив извлеченных символов.
 
-- [String.substring(indexStart, end)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) - возвращает часть string между начальным и конечным индексами? или до конца строки.
+- [String.**substring**(indexStart, end)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) - возвращает часть string между начальным и конечным индексами? или до конца строки.
 
-- [String.charAt(index)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) - извлекает 1 символ по номеру его индекса в строке. Возвращает 1 символ.
+- [String.**charAt**(index)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) - извлекает 1 символ по номеру его индекса в строке. Возвращает 1 символ.
 
 
 
@@ -121,13 +121,13 @@
 
 - ✅ [String.**trim()** | trimEnd() | trimStart()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) - удаляет пробелы с обоих концов строки и возвращает новую строку без изменения исходной строки. 
 
-- [String.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat) - обьединяет строки и возвращает новую объединенную строку.
+- [String.**concat**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat) - обьединяет строки и возвращает новую объединенную строку.
 
-- [String.padEnd(length, 'sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd) - добавляет в конец текущей строки подстроку "sample", чтобы результирующая строка достигла заданной длины length.
+- [String.**padEnd**(length, 'sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd) - добавляет в конец текущей строки подстроку "sample", чтобы результирующая строка достигла заданной длины length.
 
-- [String.padStart(length, 'sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) - добавляет в начало текущей строки подстроку "sample", чтобы результирующая строка достигла заданной длины length.
+- [String.**padStart**(length, 'sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) - добавляет в начало текущей строки подстроку "sample", чтобы результирующая строка достигла заданной длины length.
 
-- [String.repeat(5)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) - возвращает новую строку, указанное количество раз копируется эта же строка.
+- [String.**repeat**(5)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) - возвращает новую строку, указанное количество раз копируется эта же строка.
 
 
 ## Сложное преобразование (с коллбэком)
