@@ -19,14 +19,14 @@
 
 5. [Простое преобразование](https://github.com/NazimovDmitrii/JS-Array-and-String-methods/blob/main/README.md#%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B5-%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B1%D0%B5%D0%B7-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B1%D1%8D%D0%BA%D0%B0)
 
-6. [Сложное преобразование](https://github.com/NazimovDmitrii/JS-Array-and-String-methods/blob/main/README.md#%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B1%D1%8D%D0%BA%D0%BE%D0%BC)
+6. [Сложное преобразование и перебор](https://github.com/NazimovDmitrii/JS-Array-and-String-methods/blob/main/README.md#%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B1%D1%8D%D0%BA%D0%BE%D0%BC)
 
 ## Создание массива/строки
 
 ### Массив
  - ✅ [String.**split**(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) - создает МАССИВ путем разбиения String на подстроки по разделителю separator.
 
-- []() - 
+- [Array.from(arrayLike, function mapFn(element, index))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) - возвращает новый массив созданный из arrayLike c возможным применением коллбэка к каждому элементу. В качестве arrayLike может быть строка или другой итерируемый обьект (Map, Set).
 
 - []() - 
 
@@ -36,9 +36,11 @@
 
 - []() - 
 
-- []() - 
+
 
 ### Строка
+- [Array.join(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
+
 ❌ - [String.**raw**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw) - создает строку которая вставляется как `Some text ${string}` и в ней спецсимволы типа u000A не исполняются. Грубо говоря экранирует спецсимволы.
 
 
@@ -48,6 +50,10 @@
 - [Array.**find**(callback(item, index, arr)) | **.findLast**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает **значение** первого/последнего найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается undefined.
 
 - [Array.**findIndex**(callback(item, index, arr)) | **.findLastIndex**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) - возвращает **индекс** первого/последнего элемента в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
+
+- [Array.prototype.includes('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - проверяет присутствует ли sample в Array. Возвращает true/false.
+
+- [Array.indexOf('sample') | .lastIndexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) - возвращает первый/последний индекс, по которому 'sample' может быть найден в массиве, или -1, если он отсутствует.
 
 - []() - 
 
@@ -95,7 +101,7 @@
 ### Массив
 - [Array.**every**(callback(item, index, arr) | .**some**())](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/every) - проверяет, удовлетворяют ли все/некоторые элементы массива условию, заданному в передаваемой функции. Возвращает true/false.
 
-- []() - 
+- [Array.isArray(someVar)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) - определяет, является ли переданное значение массивом. Возвращает true/false.
 
 - []() - 
 
@@ -117,6 +123,8 @@
 - [Array.**entries**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/entries) - возвращает новый объект итератора массива Array Iterator, содержащий пары ключ / значение для каждого индекса в массиве.
 
 - [Array.**fill**(value, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) - заполняет все элементы массива от начального до конечного индексов одним значением. Возвращает измененный массив.
+
+- [Array.flat(depth)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat) - возвращает новый массив в который добавляются вложенные в Array подмассивы. Depth - регулирует глубину вложенности. [1,2,3,[4,5]].flat() //[1,2,3,4,5] 
 
 - []() - 
 
@@ -142,10 +150,24 @@
 - [String.**repeat**(5)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) - возвращает новую строку, указанное количество раз копируется эта же строка.
 
 
-## Сложное преобразование (с коллбэком)
+## Сложное преобразование и перебор (с коллбэком)
 
 ### Массив
 - [Array.**filter**(callback(item, index, array))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - создаёт новый массив со всеми элементами, прошедшими проверку, задаваемую в передаваемой функции.
+
+- [Array.flatMap(callback(item, index, arr))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap) - возвращает новый массив, сформированный путем применения коллбэка к каждому элементу массива, а затем выравнивания результата на один уровень. Он идентичен map() за которым следует flat() глубины 1. Этот метод эффективнее последовательного вызова map().flat().
+
+- [Array.map(callback(item, index, arr))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) - возвращает новый массив состоящий из элементов Array, к каждому из которых применили callback().
+
+- [Array.forEach(callback(item, index, arr))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) - выполняет коллбэк один раз для каждого элемента массива. Ничего не возвращает, просто перебирает массив и применяет коллбэк.
+
+- []() - 
+
+- []() - 
+
+- []() - 
+
+- []() - 
 
 - []() - 
 
