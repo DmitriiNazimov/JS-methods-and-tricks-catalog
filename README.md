@@ -27,7 +27,7 @@
 ## Создание массива/строки
 
 ### Массив
- - ✅ [String.**split**(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) - создает МАССИВ путем разбиения String на подстроки по разделителю separator.
+- ✅ [Array.**join**(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
 
 - [Array.**from**(arrayLike, function mapFn(element, index))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) - возвращает новый массив созданный из arrayLike c возможным применением коллбэка к каждому элементу. В качестве arrayLike может быть строка или другой итерируемый обьект (Map, Set).
 
@@ -35,7 +35,9 @@
 
 
 ### Строка
-- ✅ [Array.**join**(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
+ - ✅ [String.**split**(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) - создает МАССИВ путем разбиения String на подстроки по разделителю separator.
+
+
 
 - [Array.**toString**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString) - возвращает строку из элементов массива через запятую. Более элегантно использовать .join().
 
