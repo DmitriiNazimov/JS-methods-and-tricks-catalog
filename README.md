@@ -49,9 +49,7 @@
 
 - [String.includes('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - определяет с учетом регистра присутствует ли 'sample' внутри String. Возвращает true/false.
 
-- [String.startsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в НАЧАЛЕ строки String строка 'sample'. Возвращает true/false.
-
-- [String.endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith) - определяет есть ли в КОНЦЕ строки String строка 'sample'. Возвращает true/false.
+- [String.startsWith('sample') | endsWith('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в начале/конце строки String строка 'sample'. Возвращает true/false.
 
 ## Извлечение из массива/строки
 
