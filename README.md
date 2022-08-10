@@ -152,7 +152,8 @@
 
 - ✅ [Array.**filter**(callback(item, index, array))](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - создаёт новый массив со всеми элементами, прошедшими проверку, задаваемую в передаваемой функции.
 
-- ✅ [Array.**reduce**(callback(previous, current)) | .reduceRight()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) - перебирает Array применяя коллбэк на каждой итерации И передавая полученный результат в следующую итерацию. Т.е. результат работы коллбэка аккумулируется. .reduceRight() - идет в обратном направлении (справа-налево).
+- ✅ [Array.**reduce**(callback(previous, current)) | .reduceRight()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) - перебирает Array применяя коллбэк на каждой итерации и передает полученный результат в следующую итерацию. Т.е. результат работы коллбэка аккумулируется. Возвращает аккумулированное значение. 
+.reduceRight() - идет в обратном направлении (справа-налево).
 
 - ✅ [Array.**splice**(start, deleteCount, newItem)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) - изменяет содержимое массива, удаляя или заменяя существующие элементы и/или добавляя новые элементы. Возвращает массив, содержащий удаленные элементы. Смысл этого метода в изменении Array, а не в том чтобы получить удаленные элементы (для этого есть slice()).
 
