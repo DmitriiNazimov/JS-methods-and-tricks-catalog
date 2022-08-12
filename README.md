@@ -8,7 +8,7 @@
 
 ✅ - часто используемый метод, рекомендуется запомнить в первую очередь.
 
-
+<a href="http://example.com/" target="_blank">Hello, world!</a>
 ## Оглавление
 1. [Cоздание](https://github.com/NazimovDmitrii/JS-Array-and-String-methods/blob/main/README.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8)
 
