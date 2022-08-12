@@ -27,10 +27,6 @@
 ## Создание массива/строки
 
 ### Массив
-<a href="" target="_blank"></a>
-<a href="" target="_blank"></a>
-
-
 - ✅ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank">Array.**join**(separator)</a> - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
 
 - [Array.**from**(arrayLike, callback(element, index))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) - возвращает новый массив созданный из arrayLike c возможным применением коллбэка к каждому элементу. В качестве arrayLike может быть строка или другой итерируемый обьект (Map, Set).
