@@ -49,6 +49,7 @@
 - ✅ [Array.**find**(callback(item, index, arr)) | **.findLast**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает **значение** первого/последнего найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается ```undefined```.
 
 - ✅ [Array.**findIndex**(callback(item, index, arr)) | **.findLastIndex**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) - возвращает **индекс** первого/последнего элемента в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
+
 **.findLastIndex**() - новый метод и поэтому не поддерживается в некоторых браузерах и версиях Node. Можно в качестве альтернативы использовать такой лайфхак:
 ```source.map((item, i, arr) => arr[i] == item).lastIndexOf(true);```
 
@@ -112,7 +113,7 @@
 
 - ✅ [Array.**pop**() | .**shift**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) - удаляет последний/первый элемент из массива и возвращает этот элемент. Этот метод изменяет длину массива (поэтому он помещен в блок преобразования, а не извлечения). Pop - последний. Shift - первый.
 
-- **Уникализировать массив:** ```let unique = [...new Set(myArray)];```
+- ✅ **Уникализировать массив:** ```let unique = [...new Set(myArray)];```
 
 - [Array.**reverse**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) - возвращает перевернутый массив.
 
