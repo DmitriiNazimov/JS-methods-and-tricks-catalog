@@ -49,8 +49,10 @@
 - ✅ [Array.**find**(callback(item, index, arr)) | **.findLast**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - возвращает **значение** первого/последнего найденного в массиве элемента, которое удовлетворяет условию переданному в callback функции. В противном случае возвращается ```undefined```.
 
 - ✅ [Array.**findIndex**(callback(item, index, arr)) | **.findLastIndex**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) - возвращает **индекс** первого/последнего элемента в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
+**.findLastIndex**() - новый метод и поэтому не поддерживается в некоторых браузерах и версиях Node. Можно в качестве альтернативы использовать такой лайфхак:
+```source.map((item, i, arr) => arr[i] == item).lastIndexOf(true);```
 
-- ✅ [Array.**includes**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - проверяет присутствует ли sample в Array. Возвращает true/false.
+- ✅ [Array.**includes**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - проверяет присутствует ли sample в Array. Возвращает ```true/false```.
 
 - ✅ [Array.**indexOf**('sample') | .**lastIndexOf**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) - возвращает первый/последний индекс, по которому 'sample' может быть найден в массиве, или -1, если он отсутствует.
 
@@ -60,9 +62,9 @@
 
 - ✅ [String.**indexOf**('sample') | **lastIndexOf**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) - возвращает индекс первого/последнего вхождения указанной подстроки.
 
-- ✅ [String.**includes**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - определяет с учетом регистра присутствует ли 'sample' внутри String. Возвращает true/false.
+- ✅ [String.**includes**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - определяет с учетом регистра присутствует ли 'sample' внутри String. Возвращает ```true/false```.
 
-- [String.**startsWith**('sample') | **endsWith**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в начале/конце строки String строка 'sample'. Возвращает true/false.
+- [String.**startsWith**('sample') | **endsWith**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - определяет есть ли в начале/конце строки String строка 'sample'. Возвращает ```true/false```.
 
 
 
@@ -93,9 +95,9 @@
 ## Проверка по условию | сравнение
 
 ### Массив
-- ✅ [Array.**every**(callback(item, index, arr) | .**some**())](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/every) - проверяет, удовлетворяют ли все/некоторые элементы массива условию, заданному в передаваемой функции. Возвращает true/false.
+- ✅ [Array.**every**(callback(item, index, arr) | .**some**())](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/every) - проверяет, удовлетворяют ли все/некоторые элементы массива условию, заданному в передаваемой функции. Возвращает ```true/false```.
 
-- ✅ [Array.**isArray**(someVar)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) - определяет, является ли переданное значение массивом. Возвращает true/false.
+- ✅ [Array.**isArray**(someVar)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) - определяет, является ли переданное значение массивом. Возвращает ```true/false```.
 
 
 ### Строка
@@ -110,13 +112,15 @@
 
 - ✅ [Array.**pop**() | .**shift**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) - удаляет последний/первый элемент из массива и возвращает этот элемент. Этот метод изменяет длину массива (поэтому он помещен в блок преобразования, а не извлечения). Pop - последний. Shift - первый.
 
+- **Уникализировать массив:** ```let unique = [...new Set(myArray)];```
+
 - [Array.**reverse**()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) - возвращает перевернутый массив.
 
-- [Array.**entries**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/entries) - возвращает новый объект итератора массива Array, содержащий пары ключ / значение для каждого индекса в массиве.
+- [Array.**concat**(anotherArr)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) - возвращает новый массив, состоящий из массива, на котором он был вызван, соединённого с другими массивами.
+
+- [Array.**entries**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/entries) - возвращает новый объект итератора массива Array, содержащий пары ключ/значение для каждого индекса в массиве.
 
 - [Array.**flat**(depth)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat) - возвращает новый массив в который добавляются вложенные в Array подмассивы. Depth - регулирует глубину вложенности. ```[1,2,3,[4,5]].flat() //[1,2,3,4,5] ```
-
-- [Array.**concat**(anotherArr)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) - возвращает новый массив, состоящий из массива, на котором он был вызван, соединённого с другими массивами.
  
 - [Array.**copyWithin**(target, start, end)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin) - копирует последовательность элементов массива внутри него в позицию, начинающуюся по индексу target. ```[1, 2, 3, 4, 5].copyWithin(0, 3); // [4, 5, 3, 4, 5]``` Вставляет с элемента ноль элементы с 3 до последнего.
  
@@ -124,7 +128,7 @@
 
 
 ### Строка
-- ✅ [String.**replace**(regexp, newSubstr) | **replaceAll**(regexp, newSubstr)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) - возвращает новую строку, в которой заменяет в строке String одно вхождение найденное по regexp на newSubstr.
+- ✅ [String.**replace**(regexp, newSubstr) | **replaceAll**(regexp, newSubstr)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) - возвращает новую строку, в которой заменяет в строке String одно вхождение найденное по ```regexp``` на newSubstr.
 
 - ✅ [String.**toLowerCase**() | **toUpperCas**e()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) - возвращает новую строку преобразованную в нижний/верхний регистр.
 
