@@ -50,7 +50,7 @@
 
 - ✅ [Array.**findIndex**(callback(item, index, arr)) | **.findLastIndex**()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) - возвращает **индекс** первого/последнего элемента в массиве, если элемент удовлетворяет условию проверяющей функции. В противном случае возвращается -1.
 
-**.findLastIndex**() - новый метод и поэтому не поддерживается в некоторых браузерах и версиях Node. Можно в качестве альтернативы использовать такой лайфхак:
+> **.findLastIndex**() - новый метод и поэтому не поддерживается в некоторых браузерах и версиях Node. Можно в качестве альтернативы использовать такой лайфхак:
 ```source.map((item, i, arr) => arr[i] == item).lastIndexOf(true);```
 
 - ✅ [Array.**includes**('sample')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - проверяет присутствует ли sample в Array. Возвращает ```true/false```.
