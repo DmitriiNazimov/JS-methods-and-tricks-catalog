@@ -29,7 +29,7 @@
 ### Массив
 - ✅ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank">Array.**join**(separator)</a> - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
 
-- [Array.**from**(arrayLike, callback(element, index))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from target="_blank) - возвращает новый массив созданный из arrayLike c возможным применением коллбэка к каждому элементу. В качестве arrayLike может быть строка или другой итерируемый обьект (Map, Set).
+- [```Array.**from**(arrayLike, callback(element, index))```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) - возвращает новый массив созданный из arrayLike c возможным применением коллбэка к каждому элементу. В качестве arrayLike может быть строка или другой итерируемый обьект (Map, Set).
 
 - [Array.**of**(someArgs)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of) - возвращает новый массив составленный из переменного количества аргументов, независимо от количества или типа аргументов.
 
