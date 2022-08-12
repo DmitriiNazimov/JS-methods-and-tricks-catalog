@@ -8,7 +8,6 @@
 
 ✅ - часто используемый метод, рекомендуется запомнить в первую очередь.
 
-<a href="http://example.com/" target="_blank">Hello, world!</a>
 ## Оглавление
 1. [Cоздание](https://github.com/NazimovDmitrii/JS-Array-and-String-methods/blob/main/README.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8)
 
@@ -28,7 +27,11 @@
 ## Создание массива/строки
 
 ### Массив
-- ✅ [Array.**join**(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join){:target="_blank"} - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
+<a href="" target="_blank"></a>
+<a href="" target="_blank"></a>
+
+
+- ✅ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank">Array.**join**(separator)</a> - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
 
 - [Array.**from**(arrayLike, callback(element, index))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) - возвращает новый массив созданный из arrayLike c возможным применением коллбэка к каждому элементу. В качестве arrayLike может быть строка или другой итерируемый обьект (Map, Set).
 
