@@ -30,7 +30,7 @@
 
 - [Array.**from**(arrayLike, callback(element, index))](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) - возвращает новый массив созданный из arrayLike c возможным применением коллбэка к каждому элементу. В качестве arrayLike может быть строка или другой итерируемый обьект (Map, Set).
 
-> Зачем вообще специальный метод создания объекта? Дело в том, что обычный `newArr = oldArr` не создает новый массив, а копирует старый по ссылке. Чтобы создать новый независимый массив необходимо либо использовать `newArr = Array.from(oldArr)`, либо одиз из этих вариантов: `newArr = oldArr.slice(0)` или `newArr = [...oldArr]`. 
+> Зачем вообще специальный метод создания объекта? Дело в том, что обычный `newArr = oldArr` не создает новый массив, а копирует старый по ссылке. Чтобы создать новый независимый массив необходимо либо использовать `newArr = Array.from(oldArr)`, либо один из этих вариантов: `newArr = oldArr.slice(0)` или `newArr = [...oldArr]`. 
 
 - ✅ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank">Array.**join**(separator)</a> - создает и возвращает новую строку путем объединения всех элементов массива (или объекта, подобного массиву), разделенных запятыми или заданной строкой-разделителем. 
 
